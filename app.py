@@ -134,7 +134,7 @@ details summary p {
 # --------------------------------------------------
 @st.cache_resource
 def load_ml_components():
-    return joblib.load("teen_mental_health_model.pkl")
+    return joblib.load("teen_mental_health_model (4).pkl")
 
 components = load_ml_components()
 
